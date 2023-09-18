@@ -3,7 +3,7 @@
 GitHub Action for managing versions (and creating corresponding Git tags) in monorepos. Inspired by [anothrNick/github-tag-action](https://github.com/anothrNick/github-tag-action).
 
 [![Build Status](https://github.com/mpmcroy/monorepo-version-manager/workflows/Test/badge.svg)](https://github.com/mpmcroy/monorepo-version-manager/workflows/Test/badge.svg)
-[![Latest Release](https://img.shields.io/github/v/release/mpmcroy/gmonorepo-version-manager?color=%233D9970)](https://img.shields.io/github/v/release/mpmcroy/monorepo-version-manager?color=%233D9970)
+[![Latest Release](https://img.shields.io/github/v/release/mpmcroy/monorepo-version-manager?color=%233D9970)](https://img.shields.io/github/v/release/mpmcroy/monorepo-version-manager?color=%233D9970)
 
 ## Usage
 ```yaml
