@@ -58,11 +58,11 @@ GitHub Action for managing versions (and creating corresponding Git tags) in mon
 
 ## Outputs
 
-| Name    | Description                                                                         |
-|:--------|:------------------------------------------------------------------------------------|
-| old_tag | Version tag before GitHub action run                                                |
-| new_tag | Version tag after GitHub action run                                                 |
-| part    | Version part that was bumped (not relevant when VERSIONING_SCHEME is 'build_number' |
+| Name    | Description                                                                          |
+|:--------|:-------------------------------------------------------------------------------------|
+| old_tag | Version tag before GitHub action run                                                 |
+| new_tag | Version tag after GitHub action run                                                  |
+| part    | Version part that was bumped (not relevant when VERSIONING_SCHEME is 'build_number') |
 
 ## Version Bump
 
