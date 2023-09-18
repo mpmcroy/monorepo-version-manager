@@ -3,11 +3,8 @@ name: Test
 on:
   workflow_dispatch:
   pull_request:
-    types:
-      - opened
-      - edited
-      - reopened
-      - synchronize
+    branches:
+      - main
 
 permissions:
   pull-requests: write
