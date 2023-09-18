@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   test-action:
+    name: Test action
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

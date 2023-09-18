@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   lint:
-    name: Run Linters
+    name: Run linters
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
