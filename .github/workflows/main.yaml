@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Bump version
-        uses: mpmcroy/monorepo-version-manager@master
+        uses: mpmcroy/monorepo-version-manager@v0.1.0
         env:
           VERBOSE: true
           DRY_RUN: true
