@@ -1,0 +1,13 @@
+name: 'Monorepo Version Manager'
+description: 'GitHub Action for managing versions (and creating corresponding Git tags) in monorepos'
+author: 'Martin McRoy'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+outputs:
+  old_tag:
+    description: 'The version tag before GitHub action run'
+  new_tag:
+    description: 'The version tag after GitHub action run'
+  part:
+    description: 'The version part that was bumped (not relevant for build_number versioning scheme)'

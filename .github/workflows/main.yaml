@@ -1,0 +1,24 @@
+name: Version Manager
+on:
+  workflow_dispatch:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - master
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Bump version
+        uses: mpmcroy/monorepo-version-manager@master
+        env:
+          VERBOSE: true
+          DRY_RUN: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_API_TAGGING: false
