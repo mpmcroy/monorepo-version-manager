@@ -19,7 +19,7 @@ GitHub Action for managing versions (and creating corresponding Git tags) in mon
     COMPONENT_NAME: foobar
     COMPONENT_DIR: foobar
 
-# Bump build_number version (main component)
+# Bump build_number version (config component)
 - uses: mpmcroy/monorepo-version-manager@0.1.0
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
