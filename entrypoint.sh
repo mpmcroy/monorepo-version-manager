@@ -171,7 +171,7 @@ tag_commit=$(git rev-list -n 1 "${component_name}-${tag}" || true )
 # get current commit hash
 commit=$(git rev-parse HEAD)
 
-if ! ${tag_initialized}
+if [ -z "$tag_initialized" ]
 then
   component_diff=$(git diff "${component_tag:-HEAD}" HEAD -- "${component_dir}")
   if [ -z "${component_diff}" ]
